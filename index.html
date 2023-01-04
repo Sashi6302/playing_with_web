@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+    <!-- <script type="javascript" src="myscript.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="heading"> Hello World !</h1>
+    <script type="javascript">
+        document.getElementById("heading").innerHTML = "Bye JavaScript!";
+        </script>
+        <noscript> Sorry, your browser does not support JavaScript!</noscript>
+
+    <div id="header">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati fuga recusandae architecto ex, adipisci incidunt cupiditate explicabo sapiente harum reprehenderit possimus repellendus quos quia minima placeat tempora beatae eligendi at illo rerum quisquam. Ea quasi eius fugiat. Id tempora praesentium inventore magni enim ducimus, quia iste at vel facilis culpa accusantium ab doloremque excepturi dolor! Excepturi deleniti tempore blanditiis minus error ea rem similique magni atque illum, qui, provident assumenda commodi odit. Minima officiis doloribus consequuntur, mollitia officia dolore dicta dolorem sequi? Aperiam corrupti, nulla quos ducimus illo distinctio quis earum officiis a</div>
+
+    <button 
+    onclick="document.getElementById('header').style.display='none'">click me!</button>
+    ></button>
+
+    <ol>
+        <li>maths</li>
+        <li>physics</li>
+        <li>chemistry</li>
+    </ol>
+    
+    <ol>
+        <li>integrals</li>
+        <li>differential</li>
+        <li>trigonometry</li>
+        <li>calculas</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <table border="">
+        <caption><b>my marksheet </b></caption>
+        <thead>
+            <tr>
+        <!-- <td><img src="/my resume/my profile.jpg" alt="my profile" height="300px" width="200px"></td> -->
+        <td><h1>Sashi Kumar Reddy</h1>
+            <p><i>I am student from NIT Rourkela🏫</i></p>
+            <p>I am currently learning web development✍️</p>
+            <p>I ❤️ web development</p></td>
+            </tr>
+    </table>
+
+    <hr>
+    <!-- header completed -->
+    <h2>Education</h2>
+    <table border="">
+            <tr>
+            <th>course</th>
+            <th>Institute</th>
+            <th>year</th>
+            <th>result</th>
+            </tr>
+            <tr>
+            <td>12 <sup>th</sup></td>
+            <td>DAV Public School</td>
+            <td>2020</td>
+            <td>97.6%</td>
+            </tr>
+            <tr>
+            <td>mechanical</td>
+            <td>NIT Rourkela</td>
+            <td>2022</td>
+            <td>8.34 CGPA</td>
+            </tr>
+    </table>
+    <br><br><br><hr>
+     
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">turn on the light</button>
+
+    <img src="pic_bulboff.gif" alt="light image" style="width:100px" id="myImage">
+    
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">turn off the light</button>
+    
+</body>
+</html>
